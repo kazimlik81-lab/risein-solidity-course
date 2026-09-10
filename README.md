@@ -28,7 +28,11 @@ For example, 2 approve / 1 reject / 1 pass is false, while 3 approve / 1 reject 
 
 ## Verification status
 
-Browser-based compilation and runtime verification are in progress. This repository does not yet record passing test results or a deployed network address.
+**33 runtime checks passed** in Remix using ethers `5.8.0`. The final source compiled with Solidity `0.8.34+commit.80d5c536`, optimizer enabled for `200` runs, and EVM target `prague`. The checks covered the counter, access control, validation, proposal state, voting, closure, history, and ownership transfer.
+
+**Deployed on Arc Testnet** (chain ID `5042002`): [0x7016623d011dFfFA3876F4eB55C99CD36bf0e9eE](https://testnet.arcscan.app/address/0x7016623d011dFfFA3876F4eB55C99CD36bf0e9eE). Deployed bytecode presence and the contract owner were verified onchain.
+
+See the [deployment record and test scope](docs/deployment.md) for the transaction, block, owner, compiler settings, and validation details.
 
 The sources have MIT SPDX identifiers and no library dependencies. Use a compatible Solidity 0.8 compiler, version 0.8.20 or newer, to compile all exercises in Remix. The counter exercise also permits 0.8.18.
 
