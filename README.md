@@ -28,7 +28,7 @@ For example, 2 approve / 1 reject / 1 pass is false, while 3 approve / 1 reject 
 
 ## Verification status
 
-**33 runtime checks passed** in Remix using ethers `5.8.0`. The final source compiled with Solidity `0.8.34+commit.80d5c536`, optimizer enabled for `200` runs, and EVM target `prague`. The checks covered the counter, access control, validation, proposal state, voting, closure, history, and ownership transfer.
+**33 runtime checks passed** using the [Remix test script](scripts/CourseworkTest.js) and ethers `5.8.0`. The final source compiled with Solidity `0.8.34+commit.80d5c536`, optimizer enabled for `200` runs, and EVM target `prague`. The checks covered the counter, access control, validation, proposal state, voting, closure, history, and ownership transfer.
 
 **Deployed on Arc Testnet** (chain ID `5042002`): [0x7016623d011dFfFA3876F4eB55C99CD36bf0e9eE](https://testnet.arcscan.app/address/0x7016623d011dFfFA3876F4eB55C99CD36bf0e9eE). Deployed bytecode presence and the contract owner were verified onchain.
 
